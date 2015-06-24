@@ -18,6 +18,7 @@ binaries=(
   ssh-copy-id
   trash
   tree
+  youtube-dl
 )
 
 # Apps

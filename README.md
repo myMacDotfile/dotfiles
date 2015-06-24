@@ -175,6 +175,7 @@ apps=(
 | ssh-copy-id | install your public key in a remote machine’s authorized_keys |
 | [trash](http://mama.indstate.edu/users/ice/tree/) | 樹狀目錄顯示 |
 | [tree](http://hasseg.org/trash/) | 刪除至垃圾桶 |
+| [youtube-dl](https://github.com/rg3/youtube-dl/) | Small command-line program to download videos from YouTube.com |
 
 #### Fonts
 
@@ -268,7 +269,7 @@ apps=(
 | 加快 Mission Control 的動畫速度 | `defaults write com.apple.dock expose-animation-duration -float 0.1` |
 | 關閉 Mission Control 的應用程式群組化顯示 | `defaults write com.apple.dock expose-group-by-app -bool false` |
 | 關閉 Dashboard | `defaults write com.apple.dashboard mcx-disabled -bool true` |
-| 將 Dashboard 從多重桌面之中移除 | `defaults write com.apple.dock dashboard-in-overlay -bool true` | 
+| 將 Dashboard 從多重桌面之中移除 | `defaults write com.apple.dock dashboard-in-overlay -bool true` |
 | 自動隱藏 Dock | `defaults write com.apple.dock autohide -bool true` |
 | 移除隱藏 Dock 的延遲 | `defaults write com.apple.dock autohide-delay -float 0` |
 | 移除 Dock 的顯示/隱藏動畫 | `defaults write com.apple.dock autohide-time-modifier -float 0` |
