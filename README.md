@@ -190,7 +190,6 @@ apps=(
 | --- | --- |
 | [alfred](http://www.alfredapp.com/) | 三大神器之一 |
 | [beyond-compare](http://www.scootersoftware.com/) | Beyond Compare 是一套優秀的檔案內容及目錄的比對工具 |
-| [dash](http://kapeli.com/dash) | 程式文件查詢 |
 | [dropbox](http://www.dropbox.com/) | 雲端硬碟 |
 | [evernote](https://evernote.com/) | 筆記 |
 | [Firefox](https://moztw.org/) | Mozilla Firefox (known simply as Firefox) is a free and open-source[17] web browser |
@@ -322,7 +321,6 @@ ssh
 | app | 說明 |
 | --- | --- |
 | [aws](https://aws.amazon.com/tw/cli/) | AWS Command Line Interface |
-| [dash](http://kapeli.com/dash) | 程式文件查詢 |
 | [flux](https://justgetflux.com/) | 螢幕色彩亮度調整 |
 | [iterm2](http://iterm2.com/) | 加強版終端機 |
 | [moom](http://manytricks.com/moom/) | 視窗布局 |
@@ -344,6 +342,7 @@ ssh
 | name | 說明 |
 | --- | --- |
 | [Moom](http://manytricks.com/moom/) | 視窗布局 |
+| [Dash](https://kapeli.com/dash) | API Documentation Browser, Snippet Manager |
 | [Day One](http://dayoneapp.com/) | 日記 |
 | [LINE](http://line.me/) | 聊天 |
 | Microsoft Remote Desktop | 遠端桌面 |
