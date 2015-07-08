@@ -25,7 +25,6 @@ binaries=(
 apps=(
   alfred
   beyond-compare
-  dash
   dropbox
   evernote
   firefox
