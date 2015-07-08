@@ -33,7 +33,6 @@ apps=(
   iterm2
   keka
   kitematic
-  macdown
   obs
   qlcolorcode
   qlmarkdown
@@ -45,6 +44,7 @@ apps=(
   steam
   sublime-text3
   todoist
+  typora
   virtualbox
   vlc
 )

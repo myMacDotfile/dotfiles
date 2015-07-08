@@ -198,7 +198,6 @@ apps=(
 | [iterm2](http://iterm2.com/) | 加強版終端機 |
 | [Keka](http://www.kekaosx.com/) | 免費的Mac OS X 檔案壓縮程式 |
 | [kitematic](https://kitematic.com/) | The easiest way to use Docker on Mac. |
-| [MacDown](http://macdown.uranusjr.com/) | Open source Markdown editor for OS X |
 | [OBS](https://obsproject.com/) | Free, open source software for live streaming and recording |
 | [qlcolorcode](https://code.google.com/p/qlcolorcode/) | 讓 Quick Look 支援 syntax highlighting |
 | [qlmarkdown](https://github.com/toland/qlmarkdown) | 讓 Quick Look 支援 Markdown |
@@ -210,6 +209,7 @@ apps=(
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
 | [sublime-text3](http://www.sublimetext.com/3) | 程式碼編輯器 |
 | [todoist](https://todoist.com/) | 待辦事項列表及任務管理器 |
+| [typora](http://typora.io/) | a minimal markdown editor |
 | [virtualbox](https://www.virtualbox.org/) | 虛擬機 |
 | [VLC](www.videolan.org/vlc) | 媒體播放器 |
 
