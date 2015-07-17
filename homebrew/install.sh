@@ -33,6 +33,7 @@ apps=(
   iterm2
   keka
   kitematic
+  neteasemusic
   obs
   qlcolorcode
   qlmarkdown

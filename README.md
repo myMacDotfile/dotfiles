@@ -198,6 +198,7 @@ apps=(
 | [iterm2](http://iterm2.com/) | 加強版終端機 |
 | [Keka](http://www.kekaosx.com/) | 免費的Mac OS X 檔案壓縮程式 |
 | [kitematic](https://kitematic.com/) | The easiest way to use Docker on Mac. |
+| [neteasemusic](http://music.163.com/) | 网易云音乐听见好时光 |
 | [OBS](https://obsproject.com/) | Free, open source software for live streaming and recording |
 | [qlcolorcode](https://code.google.com/p/qlcolorcode/) | 讓 Quick Look 支援 syntax highlighting |
 | [qlmarkdown](https://github.com/toland/qlmarkdown) | 讓 Quick Look 支援 Markdown |
