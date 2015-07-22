@@ -353,7 +353,6 @@ ssh
 
 | name | 說明 |
 | --- | --- |
-| [PomoDone](http://pomodoneapp.com/) | 番茄時鐘 |
 | [Yahoo!奇摩輸入法](https://github.com/yahoo/keykey) beta | 输入法 |
 
 ## Reference
