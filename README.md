@@ -342,6 +342,7 @@ ssh
 
 | name | 說明 |
 | --- | --- |
+| [Affinity Photo](https://affinity.serif.com/en-us/photo/) | Professional photo editing software for Mac |
 | [Moom](http://manytricks.com/moom/) | 視窗布局 |
 | [Dash](https://kapeli.com/dash) | API Documentation Browser, Snippet Manager |
 | [Day One](http://dayoneapp.com/) | 日記 |
