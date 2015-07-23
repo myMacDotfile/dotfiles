@@ -30,6 +30,7 @@ apps=(
   firefox
   flux
   google-chrome
+  istat-menus
   iterm2
   keka
   neteasemusic

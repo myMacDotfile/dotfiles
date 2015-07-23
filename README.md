@@ -195,6 +195,7 @@ apps=(
 | [Firefox](https://moztw.org/) | Mozilla Firefox (known simply as Firefox) is a free and open-source[17] web browser |
 | [flux](https://justgetflux.com/) | 螢幕色彩亮度調整 |
 | [google-chrome](www.google.com/chrome) | Google 瀏覽器 |
+| [istat-munus](https://bjango.com/mac/istatmenus/) | An advanced Mac system monitor for your menubar |
 | [iterm2](http://iterm2.com/) | 加強版終端機 |
 | [Keka](http://www.kekaosx.com/) | 免費的Mac OS X 檔案壓縮程式 |
 | [neteasemusic](http://music.163.com/) | 网易云音乐听见好时光 |
