@@ -32,7 +32,6 @@ apps=(
   google-chrome
   iterm2
   keka
-  kitematic
   neteasemusic
   obs
   qlcolorcode
