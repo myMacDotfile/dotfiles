@@ -173,6 +173,7 @@ apps=(
 | [mackup](https://github.com/lra/mackup) | 同步應用程式的配置 |
 | [nvm](https://github.com/creationix/nvm) | Node Version Manager |
 | ssh-copy-id | install your public key in a remote machine’s authorized_keys |
+| [opencc](https://github.com/BYVoid/OpenCC) | 開放中文轉換 |
 | [trash](http://mama.indstate.edu/users/ice/tree/) | 樹狀目錄顯示 |
 | [tree](http://hasseg.org/trash/) | 刪除至垃圾桶 |
 | [youtube-dl](https://github.com/rg3/youtube-dl/) | Small command-line program to download videos from YouTube.com |

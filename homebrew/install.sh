@@ -15,6 +15,7 @@ binaries=(
   legit
   mackup
   nvm
+  opencc
   ssh-copy-id
   trash
   tree
