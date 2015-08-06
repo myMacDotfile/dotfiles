@@ -6,25 +6,11 @@
 
 ![iMac-MacBook-flat](http://i.imgur.com/GBpjrHB.png)
 
-這份 dotfiles 是 fork 自 [Holman's dotfiles](https://github.com/holman/dotfiles)，並根據個人的需求修改過，如果有興趣，閱讀完這份文件之後，歡迎 fork 一份回去配置成適合自己的 dotfiles。
+這份 dotfiles 是 fork 自 [Holman's dotfiles](https://github.com/holman/dotfiles)，並根據個人的需求修改。
+
+閱讀完這份文件之後，如果有興趣，歡迎 fork 一份回去配置成適合自己的 dotfiles。
 
 更多的 dotfiles 請參考 [GitHub does dotfiles](https://dotfiles.github.io/)。
-
-## Menu
-
-- [Quick Start](#quick-start)
-  - [清除並安裝 OS X](#erase-and-reinstall-os-x)
-  - [安裝 Xcode](#install-xcode)
-  - [安裝 dotfiles](#install-dotfiles)
-  - [恢復備份](#restore-backup)
-- [How To Use](#how-to-use)
-  - [dotfiles](#dotfiles)
-  - [OS X](#os-x)
-  - [Mackup](#mackup)
-- [Issue](#issue)
-  - [App Store](#app-store)
-
-![Mind-Mapping](http://2.bp.blogspot.com/-fFPbZGT8PcQ/VNxKxQHte6I/AAAAAAAAgKQ/NPVbkNiAoVs/s1600/f4ec16b6f72031d99b0b0d40af57126ec06967d68b78ed45b4afa4ab7ff4038f%2B(2).png)
 
 # Quick Start
 
@@ -66,11 +52,11 @@ $ ./script/bootstrap
 
 1. 檢查並安裝 [Homebrew](http://brew.sh/)。
 2. 檢查並安裝 [Oh My Zsh](http://ohmyz.sh/)。
-3. 檢查並連結 dotfiles(`.zshrc`, `.vimrc`, `.gitconfig`,` .gitignore`, ...)。
-4. 更新並安裝 brew packages(binaries, fonts, apps)。
+3. 檢查並連結 dotfiles (.zshrc, .vimrc, .gitconfig, .gitignore, ...)。
+4. 更新並安裝 Homebrew packages (binaries, fonts, apps)。
 5. 設置 Mac OS X 的 defaults settings。
 
-完成之後，手動安裝一些 App Store 上才有的軟體(Dash, Moom, ...)。
+完成之後，手動安裝一些 App Store 上才有的軟體 (Dash, Moom, ...)。
 
 ## Restore backup
 
@@ -80,7 +66,7 @@ $ ./script/bootstrap
 $ mackup restore
 ```
 
-> 什麼是 Mackup? 底下會介紹。
+什麼是 Mackup? 底下介紹。
 
 # How To Use
 
@@ -164,19 +150,19 @@ apps=(
 
 | name | 說明 |
 | --- | --- |
-| [boot2docker](https://github.com/nvie/gitflow) |  Linux virtual machine provider |
-| [docker](https://github.com/nvie/gitflow) | An open platform for distributed applications for developers and sysadmins. |
-| [git-flow](https://github.com/nvie/gitflow) | Git branch manage model |
-| [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc/README.txt) | log 上色 |
-| [hub](https://github.com/github/hub) | hub is a command-line wrapper for git that makes you better at GitHub |
-| [legit](http://www.git-legit.org/) | optimized for Git command-line |
-| [mackup](https://github.com/lra/mackup) | 同步應用程式的配置 |
+| [boot2docker](https://github.com/boot2docker/boot2docker) | Lightweight Linux for Docker |
+| [docker](https://www.docker.com/) | Docker allows you to package an application with all of its dependencies into a standardized unit for software development |
+| [git-flow](https://github.com/nvie/gitflow) | Git extensions to provide high-level repository operations for Vincent Driessen's branching model |
+| [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) | Generic Colouriser is yet another colouriser for beautifying your logfiles or output of commands |
+| [hub](https://github.com/github/hub) | hub helps you win at git |
+| [legit](http://www.git-legit.org/) | Legit is a complementary command-line interface for Git |
+| [mackup](https://github.com/lra/mackup) | Keep your application settings in sync |
 | [nvm](https://github.com/creationix/nvm) | Node Version Manager |
-| ssh-copy-id | install your public key in a remote machine’s authorized_keys |
-| [opencc](https://github.com/BYVoid/OpenCC) | 開放中文轉換 |
-| [trash](http://mama.indstate.edu/users/ice/tree/) | 樹狀目錄顯示 |
-| [tree](http://hasseg.org/trash/) | 刪除至垃圾桶 |
-| [youtube-dl](https://github.com/rg3/youtube-dl/) | Small command-line program to download videos from YouTube.com |
+| [ssh-copy-id](http://linux.die.net/man/1/ssh-copy-id) | ssh-copy-id is a script that uses ssh to log into a remote machine |
+| [opencc](https://github.com/BYVoid/OpenCC) | A project for conversion between Traditional and Simplified Chinese |
+| [trash](http://hasseg.org/trash/) | This is a small command-line program for OS X that moves files or folders to the trash |
+| [tree](http://mama.indstate.edu/users/ice/tree/) | Tree is a recursive directory listing command that produces a depth indented listing of files |
+| [youtube-dl](https://github.com/rg3/youtube-dl/) | Small command-line program to download videos from YouTube.com and other video sites |
 
 #### Fonts
 
@@ -189,30 +175,50 @@ apps=(
 
 | name | 說明 |
 | --- | --- |
-| [alfred](http://www.alfredapp.com/) | 三大神器之一 |
-| [dropbox](http://www.dropbox.com/) | 雲端硬碟 |
-| [evernote](https://evernote.com/) | 筆記 |
-| [Firefox](https://moztw.org/) | Mozilla Firefox (known simply as Firefox) is a free and open-source[17] web browser |
-| [flux](https://justgetflux.com/) | 螢幕色彩亮度調整 |
-| [google-chrome](www.google.com/chrome) | Google 瀏覽器 |
+| [alfred](http://www.alfredapp.com/) | Alfred is an award-winning productivity application for Mac OS X |
+| [dropbox](http://www.dropbox.com/) | Dropbox is a service that keeps your files safe, synced, and easy to share |
+| [evernote](https://evernote.com/) | 在 Evernote 收集突如其來的靈感、寫下有意義的文字，推動你的遠大計劃。 |
+| [Firefox](https://moztw.org/) | Mozilla Firefox is a free and open-source web browser |
+| [flux](https://justgetflux.com/) | f.lux makes your computer screen look like the room you're in, all the time. |
+| [google-chrome](www.google.com/chrome) | Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. |
 | [istat-munus](https://bjango.com/mac/istatmenus/) | An advanced Mac system monitor for your menubar |
-| [iterm2](http://iterm2.com/) | 加強版終端機 |
-| [Keka](http://www.kekaosx.com/) | 免費的Mac OS X 檔案壓縮程式 |
-| [neteasemusic](http://music.163.com/) | 网易云音乐听见好时光 |
-| [MacDown](http://macdown.uranusjr.com/) | Open source Markdown editor for OS X |
-| [OBS](https://obsproject.com/) | Free, open source software for live streaming and recording |
-| [qlcolorcode](https://code.google.com/p/qlcolorcode/) | 讓 Quick Look 支援 syntax highlighting |
-| [qlmarkdown](https://github.com/toland/qlmarkdown) | 讓 Quick Look 支援 Markdown |
-| [qlstephen](http://whomwah.github.io/qlstephen/) | 讓 Quick Look 支援無副檔名的純文字檔 |
-| [qq](http://im.qq.com/macqq/) | 聊天 |
-| [Recordit](http://recordit.co/) | Record screencasts fast with GIF |
-| [Slack](https://slack.com/) | Slack brings all your communication together in one place. It's real-time messaging, archiving and search for modern teams. |
-| [sourcetree](http://www.sourcetreeapp.com/) | Git GUI |
+| [iterm2](http://iterm2.com/) | iTerm2 is a terminal emulator for Mac OS X that does amazing things. |
+| [keka](http://www.kekaosx.com/) | the free Mac OS X file archiver |
+| [neteasemusic](http://music.163.com/) | 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。 |
+| [macdown](http://macdown.uranusjr.com/) | The open source Markdown editor for OS X. |
+| [obs](https://obsproject.com/) | Free, open source software for live streaming and recording |
+| [qlcolorcode](https://code.google.com/p/qlcolorcode/) | A Quick Look plugin for source code with syntax highlighting |
+| [qlmarkdown](https://github.com/toland/qlmarkdown) | QuickLook generator for Markdown files. |
+| [qlstephen](http://whomwah.github.io/qlstephen/) | A QuickLook plugin that lets you view plain text files without a file extension |
+| [qq](http://im.qq.com/macqq/) | 腾讯QQ，8亿人在用的即时通讯软件，你不仅可以在各类通讯终端上通过QQ聊天交友，还能进行免费的视频、语音通话，或者随时随地收发重要文件。 |
+| [recordit](http://recordit.co/) | Record screencasts fast & free! with GIF Support! |
+| [slack](https://slack.com/) | A messaging app for teams. |
+| [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
-| [sublime-text3](http://www.sublimetext.com/3) | 程式碼編輯器 |
-| [todoist](https://todoist.com/) | 待辦事項列表及任務管理器 |
-| [virtualbox](https://www.virtualbox.org/) | 虛擬機 |
-| [VLC](www.videolan.org/vlc) | 媒體播放器 |
+| [sublime-text3](http://www.sublimetext.com/3) | Sublime Text is a sophisticated text editor for code, markup and prose. |
+| [todoist](https://todoist.com/) | To-do list and task manager. Free, easy, online and mobile |
+| [virtualbox](https://www.virtualbox.org/) | VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use |
+| [vlc](http://www.videolan.org/vlc/) | VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。 |
+
+剩下無法透過 Homebrew 安裝，或是需要透過 App Store 購買的應用程式，只能手動一個一個安裝回來了...
+
+以下是目前我安裝的應用程式：
+
+### App Store
+
+| name | 說明 |
+| --- | --- |
+| [Affinity Photo](https://affinity.serif.com/en-us/photo/) | Professional photo editing software for Mac |
+| [Moom](http://manytricks.com/moom/) | Move and zoom windows |
+| [Dash](https://kapeli.com/dash) | Dash gives your Mac instant offline access to 150+ API documentation sets |
+| [LINE](http://line.me/) | LINE 是一款全新型態的通訊應用程式，讓您隨時隨地享受免費傳訊、免費通話等溝通樂趣！ |
+| [Gestimer](http://maddin.io/gestimer/) | For those little reminders during the day |
+
+### Other Apps
+
+| name | 說明 |
+| --- | --- |
+| [Yahoo!奇摩輸入法](https://github.com/yahoo/keykey) | Yahoo! KeyKey is a customized Chinese input methods tool based on an open source project Openvanilla |
 
 ### OS X defaults setting
 
@@ -220,60 +226,51 @@ apps=(
 
 以下是目前設定的配置：
 
-| setting | script |
-| ------ | --- |
-| 關閉電池進入深入睡眠模式 | `sudo pmset -a standby 0` |
-| 關閉電源進入深入睡眠模式 | `sudo pmset -a autopoweroff 0` |
-| 加快視窗 resize 的速度(Cocoa applications) | `defaults write NSGlobalDomain NSWindowResizeTime -float 0.001` |
-| 預設展開儲存視窗 | `defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true` |
-|| `defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true` |
-| 關閉“你確定要開啟這個應用程式?”詢問視窗 | `defaults write com.apple.LaunchServices LSQuarantine -bool false` |
-| 關閉 Time Machine | `sudo tmutil disablelocal` |
-| 加速進入睡眠模式 | `sudo pmset -a hibernatemode 0` |
-| 開啟觸控板輕觸點擊功能 | `defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true` |
-|| `defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1` |
-|| `defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1` |
-| 開啟觸控板/滑鼠右鍵選單功能 | `defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true` |
-|| `defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode "TwoButton"` |
-| 開啟觸控板三指拖曳功能 | `defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerDragGesture -bool true` |
-|| `defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true` |
-| 開啟觸控板四指向下滑出現 app expose 功能 | `defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerVertSwipeGesture -int 0` |
-|| `defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0` |
-|| `defaults write com.apple.dock showAppExposeGestureEnabled -int 1` |
-| 加快觸控板/滑鼠的速度 | `defaults write NSGlobalDomain com.apple.trackpad.scaling -int 3` |
-|| `defaults write NSGlobalDomain com.apple.mouse.scaling -int 3`  |
-| 開啟全部視窗組件支援鍵盤控制 | `defaults write NSGlobalDomain AppleKeyboardUIMode -int 3` |
-| 關閉鍵盤按住的輸入限制 | `defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false` |
-| 加快鍵盤輸入 | `defaults write NSGlobalDomain KeyRepeat -int 0` |
-| 移除視窗截圖的影子 | `defaults write com.apple.screencapture disable-shadow -bool true` |
-| 預設 Finder 起始位置為下載資料夾 | `defaults write com.apple.finder NewWindowTarget -string "PfLo"` |
-|| `defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Downloads/"` |
-| 顯示副檔名 | `defaults write NSGlobalDomain AppleShowAllExtensions -bool true` |
-| 顯示 Finder 狀態列 | `defaults write com.apple.finder ShowStatusBar -bool true` |
-| 顯示 Finder 路徑列 | `defaults write com.apple.finder ShowPathbar -bool true` |
-| 允許框選 Finde Quick Look 的文字 | `defaults write com.apple.finder QLEnableTextSelection -bool true` |
-| Finder 標題列顯示完整路徑 | `defaults write com.apple.finder _FXShowPosixPathInTitle -bool true` |
-| 預設搜尋列的結果為當前目錄下 | `defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"` |
-| 關閉改變副檔名的警告提示 | `defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false` |
-| 開啟資料夾的 spring loading 功能 | `defaults write NSGlobalDomain com.apple.springing.enabled -bool true` |
-| 開啟 Dock 的 spring loading 功能 | `defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true` |
-| 移除 spring loading 的延遲 | `defaults write NSGlobalDomain com.apple.springing.delay -float 0` |
-| 避免在 network volumes 底下建立 .DS_Store 檔案 | `defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true` |
-| 使用 column view 作為 Finder 預設顯示選項 | `defaults write com.apple.finder FXPreferredViewStyle -string "clmv"` |
-| 關閉清空垃圾桶的警告提示 | `defaults write com.apple.finder WarnOnEmptyTrash -bool false` |
-| 使用黑色的選單列和 Dock | `defaults write NSGlobalDomain AppleInterfaceStyle Dark` |
-| 使用縮放的效果作為視窗放大縮小效果 | `defaults write com.apple.dock mineffect -string "scale"` |
-| 應用程式縮小至自己的圖示 | `defaults write com.apple.dock minimize-to-application -bool true` |
-| 顯示 Dock 應用程式開啟中的小亮燈提示 | `defaults write com.apple.dock show-process-indicators -bool true` |
-| 關閉 Dock 開啟應用程式的彈跳動畫 | `defaults write com.apple.dock launchanim -bool false` |
-| 加快 Mission Control 的動畫速度 | `defaults write com.apple.dock expose-animation-duration -float 0.1` |
-| 關閉 Mission Control 的應用程式群組化顯示 | `defaults write com.apple.dock expose-group-by-app -bool false` |
-| 關閉 Dashboard | `defaults write com.apple.dashboard mcx-disabled -bool true` |
-| 將 Dashboard 從多重桌面之中移除 | `defaults write com.apple.dock dashboard-in-overlay -bool true` |
-| 自動隱藏 Dock | `defaults write com.apple.dock autohide -bool true` |
-| 移除隱藏 Dock 的延遲 | `defaults write com.apple.dock autohide-delay -float 0` |
-| 移除 Dock 的顯示/隱藏動畫 | `defaults write com.apple.dock autohide-time-modifier -float 0` |
-| 將隱藏的應用程式 Dock 圖示半透明顯示 | `defaults write com.apple.dock showhidden -bool true` |
+| setting |
+| ------ |
+| 關閉電池進入深入睡眠模式 |
+| 關閉電源進入深入睡眠模式 |
+| 加快視窗 resize 的速度(Cocoa applications) |
+| 預設展開儲存視窗 |
+| 關閉“你確定要開啟這個應用程式?”詢問視窗 |
+| 關閉 Time Machine |
+| 加速進入睡眠模式 |
+| 開啟觸控板輕觸點擊功能 |
+| 開啟觸控板/滑鼠右鍵選單功能 |
+| 開啟觸控板三指拖曳功能 |
+| 開啟觸控板四指向下滑出現 app expose 功能 |
+| 加快觸控板/滑鼠的速度 |
+| 開啟全部視窗組件支援鍵盤控制 |
+| 關閉鍵盤按住的輸入限制 |
+| 加快鍵盤輸入 |
+| 移除視窗截圖的影子 |
+| 預設 Finder 起始位置為下載資料夾 |
+| 顯示副檔名 |
+| 顯示 Finder 狀態列 |
+| 顯示 Finder 路徑列 |
+| 允許框選 Finde Quick Look 的文字 |
+| Finder 標題列顯示完整路徑 |
+| 預設搜尋列的結果為當前目錄下 |
+| 關閉改變副檔名的警告提示 |
+| 開啟資料夾的 spring loading 功能 |
+| 開啟 Dock 的 spring loading 功能 |
+| 移除 spring loading 的延遲 |
+| 避免在 network volumes 底下建立 .DS_Store 檔案 |
+| 使用 column view 作為 Finder 預設顯示選項 |
+| 關閉清空垃圾桶的警告提示 |
+| 使用黑色的選單列和 Dock |
+| 使用縮放的效果作為視窗放大縮小效果 |
+| 應用程式縮小至自己的圖示 |
+| 顯示 Dock 應用程式開啟中的小亮燈提示 |
+| 關閉 Dock 開啟應用程式的彈跳動畫 |
+| 加快 Mission Control 的動畫速度 |
+| 關閉 Mission Control 的應用程式群組化顯示 |
+| 關閉 Dashboard |
+| 將 Dashboard 從多重桌面之中移除 |
+| 自動隱藏 Dock |
+| 移除隱藏 Dock 的延遲 |
+| 移除 Dock 的顯示/隱藏動畫 |
+| 將隱藏的應用程式 Dock 圖示半透明顯示 |
 
 以上，若修改過 `homebrew/install.sh` 或 `osx/set-defaults.sh` 之後，直接執行指令:
 
@@ -319,41 +316,18 @@ ssh
 
 以下是目前我備份的應用程式：
 
-| app | 說明 |
-| --- | --- |
-| [aws](https://aws.amazon.com/tw/cli/) | AWS Command Line Interface |
-| [flux](https://justgetflux.com/) | 螢幕色彩亮度調整 |
-| [iterm2](http://iterm2.com/) | 加強版終端機 |
-| [moom](http://manytricks.com/moom/) | 視窗布局 |
-| [oh-my-zsh](http://ohmyz.sh/) | 加強版 ZSH |
-| [sourcetree](http://www.sourcetreeapp.com/) | Git GUI |
-| [sublime-text-3](http://www.sublimetext.com/) | 程式碼編輯器 |
-| ssh | SSH Key |
+| app |
+| --- |
+| aws |
+| flux |
+| iterm2 |
+| moom |
+| oh-my-zsh |
+| sourcetree |
+| sublime-text-3 |
+| ssh |
 
 更多詳細的配置與支援的軟體請參閱 [mackup 的文件](https://github.com/lra/mackup/tree/master/doc)。
-
-## Issue
-
-剩下無法透過 Homebrew 安裝，或是需要透過 App Store 購買的應用程式，只能手動一個一個安裝回來了...
-
-以下是目前我安裝的應用程式：
-
-### App Store
-
-| name | 說明 |
-| --- | --- |
-| [Affinity Photo](https://affinity.serif.com/en-us/photo/) | Professional photo editing software for Mac |
-| [Moom](http://manytricks.com/moom/) | 視窗布局 |
-| [Dash](https://kapeli.com/dash) | API Documentation Browser, Snippet Manager |
-| [Day One](http://dayoneapp.com/) | 日記 |
-| [LINE](http://line.me/) | 聊天 |
-| [Gestimer](http://maddin.io/gestimer/) | For those little reminders during the day |
-
-### Other
-
-| name | 說明 |
-| --- | --- |
-| [Yahoo!奇摩輸入法](https://github.com/yahoo/keykey) beta | 输入法 |
 
 ## Reference
 
