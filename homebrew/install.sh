@@ -72,16 +72,40 @@ brew tap caskroom/versions
 brew install caskroom/cask/brew-cask
 brew upgrade brew-cask
 
-echo "Installing binaries..."
-brew install ${binaries[@]}
+echo "Do you want to install or update Homebrew binaries?"
+select yn in "Yes" "No"; do
+  case $yn in
+    Yes )
+      echo "Installing binaries...";
+      brew install ${binaries[@]};
+      break;;
+    No ) break;;
+  esac
+done
 
-echo "Installing fonts..."
-brew cask install ${fonts[@]}
+echo "Do you want to install or update applications by Homebrew Cask?"
+select yn in "Yes" "No"; do
+  case $yn in
+    Yes )
+      echo "Installing fonts...";
+      brew cask install ${fonts[@]};
+      break;;
+    No ) break;;
+  esac
+done
 
-# Install apps to /Applications
-# Default is: /Users/$user/Applications
-echo "Installing apps..."
-sudo brew cask install --appdir="/Applications" ${apps[@]}
+echo "Do you want to install fonts by Homebrew Cask?"
+select yn in "Yes" "No"; do
+  case $yn in
+    Yes )
+      # Install apps to /Applications
+      # Default is: /Users/$user/Applications
+      echo "Installing apps..."
+      sudo brew cask install --appdir="/Applications" ${apps[@]}
+      break;;
+    No ) break;;
+  esac
+done
 
 # clean things up
 brew cleanup
