@@ -14,6 +14,7 @@ binaries=(
   hub
   legit
   mackup
+  mongodb
   nvm
   opencc
   ssh-copy-id

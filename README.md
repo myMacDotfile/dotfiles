@@ -157,6 +157,7 @@ apps=(
 | [hub](https://github.com/github/hub) | hub helps you win at git |
 | [legit](http://www.git-legit.org/) | Legit is a complementary command-line interface for Git |
 | [mackup](https://github.com/lra/mackup) | Keep your application settings in sync |
+| [mongodb](https://www.mongodb.org/) | MongoDB is the next-generation database that lets you create applications never before possible. |
 | [nvm](https://github.com/creationix/nvm) | Node Version Manager |
 | [ssh-copy-id](http://linux.die.net/man/1/ssh-copy-id) | ssh-copy-id is a script that uses ssh to log into a remote machine |
 | [opencc](https://github.com/BYVoid/OpenCC) | A project for conversion between Traditional and Simplified Chinese |
