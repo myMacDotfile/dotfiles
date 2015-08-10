@@ -43,6 +43,7 @@ apps=(
   qlstephen
   qq
   recordit
+  robomongo
   slack
   sourcetree
   steam

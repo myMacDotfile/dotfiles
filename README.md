@@ -194,6 +194,7 @@ apps=(
 | [qlstephen](http://whomwah.github.io/qlstephen/) | A QuickLook plugin that lets you view plain text files without a file extension |
 | [qq](http://im.qq.com/macqq/) | 腾讯QQ，8亿人在用的即时通讯软件，你不仅可以在各类通讯终端上通过QQ聊天交友，还能进行免费的视频、语音通话，或者随时随地收发重要文件。 |
 | [recordit](http://recordit.co/) | Record screencasts fast & free! with GIF Support! |
+| [robomongo](http://robomongo.org/) | Shell-centric cross-platform MongoDB management tool |
 | [slack](https://slack.com/) | A messaging app for teams. |
 | [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
