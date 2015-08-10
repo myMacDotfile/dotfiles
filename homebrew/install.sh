@@ -11,6 +11,7 @@ binaries=(
   docker
   git-flow
   grc
+  httpie
   hub
   legit
   mackup

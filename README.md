@@ -155,6 +155,7 @@ apps=(
 | [git-flow](https://github.com/nvie/gitflow) | Git extensions to provide high-level repository operations for Vincent Driessen's branching model |
 | [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) | Generic Colouriser is yet another colouriser for beautifying your logfiles or output of commands |
 | [hub](https://github.com/github/hub) | hub helps you win at git |
+| [httpie](https://github.com/jkbrzt/httpie) | HTTPie (pronounced aych-tee-tee-pie) is a command line HTTP client. |
 | [legit](http://www.git-legit.org/) | Legit is a complementary command-line interface for Git |
 | [mackup](https://github.com/lra/mackup) | Keep your application settings in sync |
 | [mongodb](https://www.mongodb.org/) | MongoDB is the next-generation database that lets you create applications never before possible. |
