@@ -85,7 +85,7 @@ select yn in "Yes" "No"; do
   esac
 done
 
-echo "Do you want to install or update applications by Homebrew Cask?"
+echo "Do you want to install fonts by Homebrew Cask?"
 select yn in "Yes" "No"; do
   case $yn in
     Yes )
@@ -96,7 +96,7 @@ select yn in "Yes" "No"; do
   esac
 done
 
-echo "Do you want to install fonts by Homebrew Cask?"
+echo "Do you want to install or update applications by Homebrew Cask?"
 select yn in "Yes" "No"; do
   case $yn in
     Yes )
