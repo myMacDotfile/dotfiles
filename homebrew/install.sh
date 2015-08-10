@@ -54,6 +54,10 @@ apps=(
 
 # Fonts
 fonts=(
+  font-noto-sans-japanese
+  font-noto-sans-korean
+  font-noto-sans-s-chinese
+  font-noto-sans-t-chinese
   font-roboto
   font-source-code-pro
 )
