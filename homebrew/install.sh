@@ -32,6 +32,7 @@ apps=(
   firefox
   flux
   google-chrome
+  heroku-toolbelt
   istat-menus
   iterm2
   keka

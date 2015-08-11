@@ -183,6 +183,7 @@ apps=(
 | [Firefox](https://moztw.org/) | Mozilla Firefox is a free and open-source web browser |
 | [flux](https://justgetflux.com/) | f.lux makes your computer screen look like the room you're in, all the time. |
 | [google-chrome](www.google.com/chrome) | Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. |
+| [heroku-toolbelt](https://toolbelt.heroku.com/) | Heroku command-line tooling for working with the Heroku platform, on OS X, Windows and Debian/Ubuntu. |
 | [istat-munus](https://bjango.com/mac/istatmenus/) | An advanced Mac system monitor for your menubar |
 | [iterm2](http://iterm2.com/) | iTerm2 is a terminal emulator for Mac OS X that does amazing things. |
 | [keka](http://www.kekaosx.com/) | the free Mac OS X file archiver |
