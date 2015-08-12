@@ -31,6 +31,7 @@ apps=(
   evernote
   firefox
   flux
+  github-desktop
   google-chrome
   heroku-toolbelt
   istat-menus

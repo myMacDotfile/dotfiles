@@ -182,6 +182,7 @@ apps=(
 | [evernote](https://evernote.com/) | 在 Evernote 收集突如其來的靈感、寫下有意義的文字，推動你的遠大計劃。 |
 | [Firefox](https://moztw.org/) | Mozilla Firefox is a free and open-source web browser |
 | [flux](https://justgetflux.com/) | f.lux makes your computer screen look like the room you're in, all the time. |
+| [github-desktop](https://desktop.github.com/) | GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise. |
 | [google-chrome](www.google.com/chrome) | Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. |
 | [heroku-toolbelt](https://toolbelt.heroku.com/) | Heroku command-line tooling for working with the Heroku platform, on OS X, Windows and Debian/Ubuntu. |
 | [istat-munus](https://bjango.com/mac/istatmenus/) | An advanced Mac system monitor for your menubar |
