@@ -7,8 +7,6 @@
 
 # Binaries
 binaries=(
-  boot2docker
-  docker
   git-flow
   grc
   httpie
@@ -27,6 +25,7 @@ binaries=(
 # Apps
 apps=(
   alfred
+  dockertoolbox
   dropbox
   evernote
   firefox
