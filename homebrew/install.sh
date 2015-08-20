@@ -45,6 +45,7 @@ apps=(
   qq
   recordit
   robomongo
+  sketch
   slack
   sourcetree
   steam
