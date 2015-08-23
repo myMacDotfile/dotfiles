@@ -51,6 +51,7 @@ apps=(
   steam
   sublime-text3
   todoist
+  unity
   virtualbox
   vlc
 )
