@@ -178,6 +178,7 @@ apps=(
 | name | 說明 |
 | --- | --- |
 | [alfred](http://www.alfredapp.com/) | Alfred is an award-winning productivity application for Mac OS X |
+| [atom](https://atom.io/) | Atom is a text editor that's modern, approachable, yet hackable to the core |
 | [dockertoolbox](https://www.docker.com/toolbox) | The Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. |
 | [dropbox](http://www.dropbox.com/) | Dropbox is a service that keeps your files safe, synced, and easy to share |
 | [evernote](https://evernote.com/) | 在 Evernote 收集突如其來的靈感、寫下有意義的文字，推動你的遠大計劃。 |

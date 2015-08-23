@@ -25,6 +25,7 @@ binaries=(
 # Apps
 apps=(
   alfred
+  atom
   dockertoolbox
   dropbox
   evernote
