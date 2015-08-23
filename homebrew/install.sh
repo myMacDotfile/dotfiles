@@ -28,7 +28,6 @@ apps=(
   atom
   dockertoolbox
   dropbox
-  evernote
   firefox
   flux
   github-desktop
