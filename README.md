@@ -206,6 +206,7 @@ apps=(
 | [sublime-text3](http://www.sublimetext.com/3) | Sublime Text is a sophisticated text editor for code, markup and prose. |
 | [todoist](https://todoist.com/) | To-do list and task manager. Free, easy, online and mobile |
 | [unity](http://unity3d.com/) | Unity is the ultimate game development platform. |
+| [utorrent](http://www.utorrent.com/) | uTorrent is the #1 BitTorrent download client on desktops worldwide. |
 | [virtualbox](https://www.virtualbox.org/) | VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use |
 | [vlc](http://www.videolan.org/vlc/) | VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。 |
 

@@ -53,6 +53,7 @@ apps=(
   sublime-text3
   todoist
   unity
+  utorrent
   virtualbox
   vlc
 )
