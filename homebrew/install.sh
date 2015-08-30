@@ -47,6 +47,7 @@ apps=(
   recordit
   robomongo
   sketch
+  sketch-toolbox
   slack
   sourcetree
   steam
