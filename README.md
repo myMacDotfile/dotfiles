@@ -171,6 +171,7 @@ apps=(
 
 | name | 說明 |
 | --- | --- |
+| [font-noto-sans](https://www.google.com/get/noto/help/cjk/) | Noto Sans CJK |
 | [font-roboto](http://www.google.com/fonts/specimen/Roboto) | Roboto |
 | [font-source-code-pro](http://www.google.com/fonts/specimen/Source+Code+Pro) | Source Code Pro |
 
