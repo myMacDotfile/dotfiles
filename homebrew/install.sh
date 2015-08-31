@@ -61,6 +61,7 @@ apps=(
 
 # Fonts
 fonts=(
+  font-hack
   font-noto-sans-japanese
   font-noto-sans-korean
   font-noto-sans-s-chinese
