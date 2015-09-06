@@ -348,6 +348,7 @@ ssh
 - [Hacker's Guide to Setting up Your Mac](http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac)
 - [First steps with Mac OS X as a Developer](http://carlosbecker.com/posts/first-steps-with-mac-os-x-as-a-developer/)
 - [Mac 开发配置手册](https://www.gitbook.com/book/aaaaaashu/mac-dev-setup/details)
+- [OS X Yosemite Security and Privacy Guide](https://github.com/drduh/OS-X-Yosemite-Security-and-Privacy-Guide)
 
 ## Thanks
 
