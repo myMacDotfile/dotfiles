@@ -31,7 +31,6 @@ apps=(
   dropbox
   firefox
   flux
-  github-desktop
   google-chrome
   heroku-toolbelt
   istat-menus
@@ -43,7 +42,6 @@ apps=(
   qlcolorcode
   qlmarkdown
   qlstephen
-  qq
   recordit
   robomongo
   sketch

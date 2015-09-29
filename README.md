@@ -186,7 +186,6 @@ apps=(
 | [dropbox](http://www.dropbox.com/) | Dropbox is a service that keeps your files safe, synced, and easy to share |
 | [Firefox](https://moztw.org/) | Mozilla Firefox is a free and open-source web browser |
 | [flux](https://justgetflux.com/) | f.lux makes your computer screen look like the room you're in, all the time. |
-| [github-desktop](https://desktop.github.com/) | GitHub Desktop is a seamless way to contribute to projects on GitHub and GitHub Enterprise. |
 | [google-chrome](www.google.com/chrome) | Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. |
 | [heroku-toolbelt](https://toolbelt.heroku.com/) | Heroku command-line tooling for working with the Heroku platform, on OS X, Windows and Debian/Ubuntu. |
 | [istat-munus](https://bjango.com/mac/istatmenus/) | An advanced Mac system monitor for your menubar |
@@ -198,7 +197,6 @@ apps=(
 | [qlcolorcode](https://code.google.com/p/qlcolorcode/) | A Quick Look plugin for source code with syntax highlighting |
 | [qlmarkdown](https://github.com/toland/qlmarkdown) | QuickLook generator for Markdown files. |
 | [qlstephen](http://whomwah.github.io/qlstephen/) | A QuickLook plugin that lets you view plain text files without a file extension |
-| [qq](http://im.qq.com/macqq/) | 腾讯QQ，8亿人在用的即时通讯软件，你不仅可以在各类通讯终端上通过QQ聊天交友，还能进行免费的视频、语音通话，或者随时随地收发重要文件。 |
 | [recordit](http://recordit.co/) | Record screencasts fast & free! with GIF Support! |
 | [robomongo](http://robomongo.org/) | Shell-centric cross-platform MongoDB management tool |
 | [sketch](http://bohemiancoding.com/sketch/) | Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use package. |
