@@ -10,9 +10,7 @@ binaries=(
   git-flow
   grc
   httpie
-  hub
   irssi
-  legit
   mackup
   mongodb
   nvm
