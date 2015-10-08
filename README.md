@@ -224,12 +224,6 @@ apps=(
 | [LINE](http://line.me/) | LINE 是一款全新型態的通訊應用程式，讓您隨時隨地享受免費傳訊、免費通話等溝通樂趣！ |
 | [Gestimer](http://maddin.io/gestimer/) | For those little reminders during the day |
 
-### Other Apps
-
-| name | 說明 |
-| --- | --- |
-| [Yahoo!奇摩輸入法](https://github.com/yahoo/keykey) | Yahoo! KeyKey is a customized Chinese input methods tool based on an open source project Openvanilla |
-
 ### OS X defaults setting
 
 執行 `$ ./osx/set-defaults.sh` 之後，程式會將 Mac OS X 的一些系統設置改變，可以根據個人需求修改這個檔案，或是參考 [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles/blob/master/.osx) 整理好的配置。
