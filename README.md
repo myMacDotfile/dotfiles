@@ -203,7 +203,6 @@ apps=(
 | [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
 | [sublime-text3](http://www.sublimetext.com/3) | Sublime Text is a sophisticated text editor for code, markup and prose. |
-| [todoist](https://todoist.com/) | To-do list and task manager. Free, easy, online and mobile |
 | [unity](http://unity3d.com/) | Unity is the ultimate game development platform. |
 | [utorrent](http://www.utorrent.com/) | uTorrent is the #1 BitTorrent download client on desktops worldwide. |
 | [virtualbox](https://www.virtualbox.org/) | VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use |
@@ -223,6 +222,7 @@ apps=(
 | [GIFMaker](https://itunes.apple.com/us/app/gifmaker-easily-create-gif/id1015930892) | easily create a GIF from a video or images |
 | [LINE](http://line.me/) | LINE 是一款全新型態的通訊應用程式，讓您隨時隨地享受免費傳訊、免費通話等溝通樂趣！ |
 | [Gestimer](http://maddin.io/gestimer/) | For those little reminders during the day |
+| [Todoist](https://todoist.com/) | To-do list and task manager. Free, easy, online and mobile |
 
 ### OS X defaults setting
 
