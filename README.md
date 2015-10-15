@@ -150,8 +150,6 @@ apps=(
 
 | name | 說明 |
 | --- | --- |
-| [boot2docker](https://github.com/boot2docker/boot2docker) | Lightweight Linux for Docker |
-| [docker](https://www.docker.com/) | Docker allows you to package an application with all of its dependencies into a standardized unit for software development |
 | [git-flow](https://github.com/nvie/gitflow) | Git extensions to provide high-level repository operations for Vincent Driessen's branching model |
 | [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) | Generic Colouriser is yet another colouriser for beautifying your logfiles or output of commands |
 | [httpie](https://github.com/jkbrzt/httpie) | HTTPie (pronounced aych-tee-tee-pie) is a command line HTTP client. |
