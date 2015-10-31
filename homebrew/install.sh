@@ -29,6 +29,7 @@ apps=(
   dropbox
   firefox
   flux
+  gitter
   google-chrome
   heroku-toolbelt
   istat-menus

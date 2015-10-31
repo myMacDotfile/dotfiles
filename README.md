@@ -182,6 +182,7 @@ apps=(
 | [dropbox](http://www.dropbox.com/) | Dropbox is a service that keeps your files safe, synced, and easy to share |
 | [Firefox](https://moztw.org/) | Mozilla Firefox is a free and open-source web browser |
 | [flux](https://justgetflux.com/) | f.lux makes your computer screen look like the room you're in, all the time. |
+| [gitter](https://gitter.im/apps) | Gitter is built on top of GitHub and is tightly integrated with your organisations, repositories, issues and activity. |
 | [google-chrome](www.google.com/chrome) | Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. |
 | [heroku-toolbelt](https://toolbelt.heroku.com/) | Heroku command-line tooling for working with the Heroku platform, on OS X, Windows and Debian/Ubuntu. |
 | [istat-munus](https://bjango.com/mac/istatmenus/) | An advanced Mac system monitor for your menubar |
