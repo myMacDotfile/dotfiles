@@ -25,6 +25,7 @@ binaries=(
 apps=(
   alfred
   atom
+  charles
   dockertoolbox
   dropbox
   firefox
