@@ -49,6 +49,7 @@ apps=(
   sourcetree
   steam
   sublime-text3
+  tiled
   unity
   utorrent
   virtualbox

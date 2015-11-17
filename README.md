@@ -202,6 +202,7 @@ apps=(
 | [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
 | [sublime-text3](http://www.sublimetext.com/3) | Sublime Text is a sophisticated text editor for code, markup and prose. |
+| [tiled](http://www.mapeditor.org/) | Your free, easy to use and flexible tile map editor. |
 | [unity](http://unity3d.com/) | Unity is the ultimate game development platform. |
 | [utorrent](http://www.utorrent.com/) | uTorrent is the #1 BitTorrent download client on desktops worldwide. |
 | [virtualbox](https://www.virtualbox.org/) | VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use |
