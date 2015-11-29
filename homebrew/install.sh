@@ -28,7 +28,7 @@ apps=(
   charles
   dockertoolbox
   dropbox
-  firefox
+  firefoxdeveloperedition
   flux
   gitter
   google-chrome

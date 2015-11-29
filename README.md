@@ -181,7 +181,7 @@ apps=(
 | [charles](http://www.charlesproxy.com/) | Charles is an HTTP proxy / monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. |
 | [dockertoolbox](https://www.docker.com/toolbox) | The Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. |
 | [dropbox](http://www.dropbox.com/) | Dropbox is a service that keeps your files safe, synced, and easy to share |
-| [Firefox](https://moztw.org/) | Mozilla Firefox is a free and open-source web browser |
+| [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) | The only browser made for developers like you. |
 | [flux](https://justgetflux.com/) | f.lux makes your computer screen look like the room you're in, all the time. |
 | [gitter](https://gitter.im/apps) | Gitter is built on top of GitHub and is tightly integrated with your organisations, repositories, issues and activity. |
 | [google-chrome](www.google.com/chrome) | Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier. |
