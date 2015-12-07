@@ -201,6 +201,7 @@ apps=(
 | [sketch-toolbox](http://sketchtoolbox.com/) | A super simple plugin manager for Sketch |
 | [slack](https://slack.com/) | A messaging app for teams. |
 | [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
+| [spectacle](https://www.spectacleapp.com/) | Spectacle allows you to organize your windows without using a mouse. |
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
 | [sublime-text3](http://www.sublimetext.com/3) | Sublime Text is a sophisticated text editor for code, markup and prose. |
 | [tiled](http://www.mapeditor.org/) | Your free, easy to use and flexible tile map editor. |
@@ -218,7 +219,6 @@ apps=(
 | name | 說明 |
 | --- | --- |
 | [Affinity Photo](https://affinity.serif.com/en-us/photo/) | Professional photo editing software for Mac |
-| [Moom](http://manytricks.com/moom/) | Move and zoom windows |
 | [Dash](https://kapeli.com/dash) | Dash gives your Mac instant offline access to 150+ API documentation sets |
 | [GIFMaker](https://itunes.apple.com/us/app/gifmaker-easily-create-gif/id1015930892) | easily create a GIF from a video or images |
 | [LINE](http://line.me/) | LINE 是一款全新型態的通訊應用程式，讓您隨時隨地享受免費傳訊、免費通話等溝通樂趣！ |

@@ -48,6 +48,7 @@ apps=(
   sketch-toolbox
   slack
   sourcetree
+  spectacle
   steam
   sublime-text3
   tiled
