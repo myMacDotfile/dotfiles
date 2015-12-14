@@ -55,6 +55,7 @@ apps=(
   unity
   utorrent
   virtualbox
+  visual-studio-code
   vlc
 )
 
