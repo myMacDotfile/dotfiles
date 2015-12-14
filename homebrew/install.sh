@@ -57,6 +57,7 @@ apps=(
   virtualbox
   visual-studio-code
   vlc
+  webstorm
 )
 
 # Fonts
