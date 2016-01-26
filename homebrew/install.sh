@@ -8,6 +8,7 @@
 # Binaries
 binaries=(
   git-flow
+  go
   grc
   httpie
   irssi

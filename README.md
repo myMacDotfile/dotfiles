@@ -151,6 +151,7 @@ apps=(
 | name | 說明 |
 | --- | --- |
 | [git-flow](https://github.com/nvie/gitflow) | Git extensions to provide high-level repository operations for Vincent Driessen's branching model |
+| [go](https://golang.org/) | The Google's Go Programming Language |
 | [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) | Generic Colouriser is yet another colouriser for beautifying your logfiles or output of commands |
 | [httpie](https://github.com/jkbrzt/httpie) | HTTPie (pronounced aych-tee-tee-pie) is a command line HTTP client. |
 | [irssi](http://irssi.org/) | The client of the future |
