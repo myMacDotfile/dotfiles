@@ -53,8 +53,8 @@ $ ./script/bootstrap
 1. 檢查並安裝 [Homebrew](http://brew.sh/)。
 2. 檢查並安裝 [Oh My Zsh](http://ohmyz.sh/)。
 3. 檢查並連結 dotfiles (.zshrc, .vimrc, .gitconfig, .gitignore, ...)。
-4. 更新並安裝 Homebrew packages (binaries, fonts, apps)。
-5. 設置 Mac OS X 的 defaults settings。
+4. 設置 Mac OS X 的 defaults settings。
+5. 更新並安裝 Homebrew packages (binaries, fonts, apps)。
 
 完成之後，手動安裝一些 App Store 上才有的軟體 (Dash, Moom, ...)。
 
@@ -85,8 +85,9 @@ $ mackup restore
 ### Topical
 
 每一個環境的配置是以資料夾的形式被獨立區分。例如，如果想要新增 "Java" 的配置到 dotfiles，你可以簡單的新增一個命名為 `java` 的資料夾，然後將檔案建至目錄底下。
-任何副檔名是 `.zsh` 的檔案將在 shell 執行時被自動載入至環境中。
-任何副檔名是 `.symlink`的檔案將在你執行 `script/bootstrap` 安裝時被連結至 `$HOME` 目錄底下。.
+
+- 任何副檔名是 `.zsh` 的檔案將在 shell 執行時被自動載入至環境中。
+- 任何副檔名是 `.symlink` 的檔案將在你執行 `script/bootstrap` 安裝時被連結至 `$HOME` 目錄底下。.
 
 ### Components
 
@@ -99,7 +100,7 @@ $ mackup restore
 
 不同於 [Holman's dotfiles](https://github.com/holman/dotfiles)，我修改了一些部分:
 
-- Shell 的部分改用 [Oh My Zsh](http://ohmyz.sh/)取代原作者自己配置的 zsh。
+- Shell 的部分改用 [Oh My Zsh](http://ohmyz.sh/) 取代原作者自己配置的 zsh。
 - 移除 **topic/aliases.zsh**、**topic/completion.zsh** 等檔案，改用 Oh My Zsh 的 [plugins]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 代替。
 - 移除 **zsh/prompt.zsh**、**zsh/window.zsh.zsh** 等檔案，改用 Oh My Zsh 的 [themes]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) 代替。
 - dotfiles 只專注在 **topic/*.symlink**、**topic/path.zsh** 的配置。
@@ -110,38 +111,33 @@ $ mackup restore
 
 執行 `$ dot` 之後，它會跑以下兩支腳本檔:
 
-1. `$HOME/.dotfiles/homebrew/install.sh` - Homebrew packages
-2. `$HOME/.dotfiles/osx/set-defaults.sh` - OS X defaults setting
+1. `$HOME/.dotfiles/osx/set-defaults.sh` - OS X defaults setting
+2. `$HOME/.dotfiles/Brewfile` - Homebrew packages
+3. 任何目錄下檔名是 `install.sh` 的檔案將被執行。
 
 ### Homebrew packages
 
-執行 `$ ./homebrew/install.sh` 的時候，腳本會使用 [Homebrew](http://brew.sh/) 和 [Homebrew Cask](http://caskroom.io/) 來安裝 **binary**、**font** 還有 **app**，可以根據個人需求修改這個檔案，增加或減少自己需要的 packages:
+執行 `$ dot` 的時候，腳本會根據 `Brewfile` 使用 [Homebrew](http://brew.sh/) 和 [Homebrew Cask](http://caskroom.io/) 來安裝 **binary**、**font** 還有 **app**，可以依照個人需求修改這個檔案，增加或減少自己需要的 packages:
 
-```bash
-binaries=(
-  git
-  tree
-  ...
-)
 ```
-
-字型都是以 **font-XXX** 的形式命名，可以用 `$ brew cask search /font-XXX/` 搜尋是否存在。
-
-```bash
-fonts=(
-  font-roboto
-  ...
-)
+brew 'git'
+brew 'tree'
+brew ...
 ```
 
 應用程式可以用 `$ brew cask search XXX` 或是 [Cask Search](http://caskroom.io/search) 網站搜尋是否存在。
 
 ```bash
-apps=(
-  dropbox
-  google-chrome
-  ...
-)
+cask 'dropbox'
+cask 'google-chrome'
+cask ...
+```
+
+字型都是以 **font-XXX** 的形式命名，可以用 `$ brew cask search /font-XXX/` 搜尋是否存在。
+
+```
+cask 'font-roboto'
+cask ...
 ```
 
 以下是我目前安裝的 packages：

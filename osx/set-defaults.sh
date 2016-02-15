@@ -9,13 +9,6 @@
 #   https://mths.be/osx
 #
 # Run ./set-defaults.sh and you'll be good to go.
-echo "Do you want to update OS X default settings?"
-select yn in "Yes" "No"; do
-  case $yn in
-    Yes ) echo "Set OS X defaults..."; break;;
-    No ) exit;;
-  esac
-done
 
 # Ask for the administrator password upfront
 # sudo -v
