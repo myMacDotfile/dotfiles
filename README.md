@@ -191,6 +191,7 @@ cask ...
 | [neteasemusic](http://music.163.com/) | 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。 |
 | [macdown](http://macdown.uranusjr.com/) | The open source Markdown editor for OS X. |
 | [obs](https://obsproject.com/) | Free, open source software for live streaming and recording |
+| [paw](https://luckymarmot.com/paw) | The ultimate HTTP client for Mac |
 | [qlcolorcode](https://code.google.com/p/qlcolorcode/) | A Quick Look plugin for source code with syntax highlighting |
 | [qlmarkdown](https://github.com/toland/qlmarkdown) | QuickLook generator for Markdown files. |
 | [qlstephen](http://whomwah.github.io/qlstephen/) | A QuickLook plugin that lets you view plain text files without a file extension |
