@@ -209,6 +209,7 @@ cask ...
 | [virtualbox](https://www.virtualbox.org/) | VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use |
 | [visual-studio-code](https://code.visualstudio.com/) | Build and debug modern web and cloud applications. |
 | [vlc](http://www.videolan.org/vlc/) | VLC 是一個自由和開源的跨平台多媒體播放器和框架，可以播放大多數多媒體檔案，以及 DVD、音樂CD、VCD 和各種串流協定。 |
+| [webkit-nightly](https://webkit.org/) | Open Source Web Browser Engine |
 | [webstorm](https://www.jetbrains.com/webstorm/) | The smartest JavaScript IDE |
 
 剩下無法透過 Homebrew 安裝，或是需要透過 App Store 購買的應用程式，只能手動一個一個安裝回來了...

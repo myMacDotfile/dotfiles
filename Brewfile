@@ -58,6 +58,7 @@ cask 'utorrent'
 cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'webkit-nightly'
 cask 'webstorm'
 
 cask 'font-hack'
