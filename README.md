@@ -176,6 +176,7 @@ cask ...
 | --- | --- |
 | [alfred](http://www.alfredapp.com/) | Alfred is an award-winning productivity application for Mac OS X |
 | [atom](https://atom.io/) | Atom is a text editor that's modern, approachable, yet hackable to the core |
+| [beyond-compare](http://www.scootersoftware.com/) | Scooter software's Beyond Compare is a Windows utility that combines directory compare and file compare functions in one package. |
 | [charles](http://www.charlesproxy.com/) | Charles is an HTTP proxy / monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. |
 | [cleanmymac](http://macpaw.com/cleanmymac) | Clean, optimize, and maintain your Mac with the all-new CleanMyMac 3. |
 | [dockertoolbox](https://www.docker.com/toolbox) | The Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. |

@@ -25,6 +25,7 @@ brew 'youtube-dl'
 
 cask 'alfred'
 cask 'atom'
+cask 'beyond-compare'
 cask 'charles'
 cask 'cleanmymac'
 cask 'dockertoolbox'
