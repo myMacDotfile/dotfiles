@@ -154,8 +154,9 @@ cask ...
 | [mackup](https://github.com/lra/mackup) | Keep your application settings in sync |
 | [mongodb](https://www.mongodb.org/) | MongoDB is the next-generation database that lets you create applications never before possible. |
 | [nvm](https://github.com/creationix/nvm) | Node Version Manager |
-| [ssh-copy-id](http://linux.die.net/man/1/ssh-copy-id) | ssh-copy-id is a script that uses ssh to log into a remote machine |
 | [opencc](https://github.com/BYVoid/OpenCC) | A project for conversion between Traditional and Simplified Chinese |
+| [rethinkdb](https://www.rethinkdb.com/) | the open-source database for the realtime web |
+| [ssh-copy-id](http://linux.die.net/man/1/ssh-copy-id) | ssh-copy-id is a script that uses ssh to log into a remote machine |
 | [terraform](https://www.terraform.io/) | Terraform is a tool for building, changing, and combining infrastructure safely and efficiently. |
 | [trash](http://hasseg.org/trash/) | This is a small command-line program for OS X that moves files or folders to the trash |
 | [tree](http://mama.indstate.edu/users/ice/tree/) | Tree is a recursive directory listing command that produces a depth indented listing of files |
