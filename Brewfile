@@ -22,6 +22,7 @@ brew 'ssh-copy-id'
 brew 'terraform'
 brew 'trash'
 brew 'tree'
+brew 'unrar'
 brew 'youtube-dl'
 
 cask 'alfred'

@@ -160,6 +160,7 @@ cask ...
 | [terraform](https://www.terraform.io/) | Terraform is a tool for building, changing, and combining infrastructure safely and efficiently. |
 | [trash](http://hasseg.org/trash/) | This is a small command-line program for OS X that moves files or folders to the trash |
 | [tree](http://mama.indstate.edu/users/ice/tree/) | Tree is a recursive directory listing command that produces a depth indented listing of files |
+| [unrar](http://www.rarlab.com) | Extract, view, and test RAR archives |
 | [youtube-dl](https://github.com/rg3/youtube-dl/) | Small command-line program to download videos from YouTube.com and other video sites |
 
 #### Fonts
