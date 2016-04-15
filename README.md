@@ -206,6 +206,7 @@ cask ...
 | [slack](https://slack.com/) | A messaging app for teams. |
 | [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
 | [spectacle](https://www.spectacleapp.com/) | Spectacle allows you to organize your windows without using a mouse. |
+| [spotify](https://www.spotify.com/) | SSpotify 是一種數碼音樂服務，讓你能收聽過百萬首歌曲。 |
 | [steam](http://store.steampowered.com/) | Digital game store for Windows, Mac and Linux platforms with forums, update client and store code redemtion. |
 | [sublime-text3](http://www.sublimetext.com/3) | Sublime Text is a sophisticated text editor for code, markup and prose. |
 | [tiled](http://www.mapeditor.org/) | Your free, easy to use and flexible tile map editor. |
