@@ -203,6 +203,7 @@ cask ...
 | [robomongo](http://robomongo.org/) | Shell-centric cross-platform MongoDB management tool |
 | [sketch](http://bohemiancoding.com/sketch/) | Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use package. |
 | [sketch-toolbox](http://sketchtoolbox.com/) | A super simple plugin manager for Sketch |
+| [skype](http://sketchtoolbox.com/) | 用Skype 免費與親朋好友保持聯繫。立即下載Skype，用電腦及行動裝置聊天及撥號。 |
 | [slack](https://slack.com/) | A messaging app for teams. |
 | [sourcetree](http://www.sourcetreeapp.com/) | A free Git & Mercurial client for Windows or Mac. |
 | [spectacle](https://www.spectacleapp.com/) | Spectacle allows you to organize your windows without using a mouse. |
