@@ -149,6 +149,7 @@ cask ...
 | [ffmpeg](https://www.ffmpeg.org/) | A complete, cross-platform solution to record, convert and stream audio and video. |
 | [git-flow](https://github.com/nvie/gitflow) | Git extensions to provide high-level repository operations for Vincent Driessen's branching model |
 | [gnupg](https://www.gnupg.org/index.html) | GnuPG is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP) |
+| [gnupg2](https://www.gnupg.org/index.html) | |
 | [go](https://golang.org/) | The Google's Go Programming Language |
 | [grc](http://kassiopeia.juls.savba.sk/~garabik/software/grc.html) | Generic Colouriser is yet another colouriser for beautifying your logfiles or output of commands |
 | [httpie](https://github.com/jkbrzt/httpie) | HTTPie (pronounced aych-tee-tee-pie) is a command line HTTP client. |
