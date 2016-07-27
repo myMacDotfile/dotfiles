@@ -3,6 +3,7 @@
 [user]
   name = Amo Wu
   email = amo260@gmail.com
+  signingkey = E77D0CB6
 [credential]
   helper = osxkeychain
 [color]
@@ -40,3 +41,5 @@
   clean = git-lfs clean %f
   smudge = git-lfs smudge %f
   required = true
+[commit]
+  gpgsign = true
