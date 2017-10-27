@@ -61,44 +61,48 @@
 
 什么是Mackup？ TODO
 
+
+## How To Use
+
+- **bootstrap.sh**
+
+    > 执行 `~/.dotfiles/script/bootstrap` 的时候，脚本会将目录下面所有的 `*.symlink` 文件通过 `ln` 命令建立链接至 `$HOME` 目录下:
+
+    | topic  | *.symlink          | .dotfiles     |
+    | ------ | ------------------ | ------------- |
+    | git    | gitconfig.symlink  | ~/.gitconfig  |
+    |        | gitignore.symlink  | ~/.gitignore  |
+    | mackup | mackup.cfg.symlink | ~/.mackup.cfg |
+    | vim    | vimrc.symlink      | ~/.vimrc      |
+    | zsh    | zshrc.symlink      | ~/.zshrc      |
+
+- **Topical**
+
+	* 每一个环境的配置都是以文件夹的像是被独立分区。加入你想增加一个"Java"的配置到dotfiles，你可以简单的新增一个命名为`java`的文件夹，然后将配置文件保存在目录下。
+	* 任何文件后缀名是 `.zsh` 的档案将在 shell执行时自动载入至环境中。
+	* 任何文件后缀名是 `.symlink` 的档案将在你执行 `script/bootstrap` 安装时链接到 `HOME`目录下。
+	
+	
+- **Components**
+
+	> 一些在目录中比较特别的档案:
+
+	- **bin/**: 任何在 `bin/` 目录下的档案可以在 shell 执行的时候直接使用。
+	- **topic/*.zsh**: 任何 `.zsh` 结尾的档案都会在 shell 执行的时候被载入到环境。
+	- **topic/path.zsh**: 任何命名为 `path.zsh` 的档案会在 shell 执行时优先被载入至 `$PATH`。
+	- **topic/*.symlink**: 任何 `*.symlink` 结尾的档案都会在 `$HOME` 目录下面建立链接。这可以让你在配置环境的时候也可以保持版本配置的有点。*新增 symlink 的时候需要执行 `script/bootstrap` 安裝。*
+
+	<!--
+	
+	> 不同於 [Holman's dotfiles](https://github.com/holman/dotfiles)，Awu Mo修改了一些部分:
+
+	- Shell 的部分改用 [Oh My Zsh](http://ohmyz.sh/) 取代原作者自己配置的 zsh。
+	- 移除 **topic/aliases.zsh**、**topic/completion.zsh** 等檔案，改用 Oh My Zsh 的 [plugins]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 代替。
+	- 移除 **zsh/prompt.zsh**、**zsh/window.zsh.zsh** 等檔案，改用 Oh My Zsh 的 [themes]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) 代替。
+	- dotfiles 只專注在 **topic/*.symlink**、**topic/path.zsh** 的配置。
+-->
+
 <!--
-# How To Use
-
-## dotfiles
-
-執行 `~/.dotfiles/script/bootstrap` 的時候，腳本會將目錄底下所有的 `*.symlink` 檔案透過 `ln` 命令建立連結至 `$HOME` 目錄底下:
-
-| topic  | *.symlink          | .dotfiles     |
-| ------ | ------------------ | ------------- |
-| git    | gitconfig.symlink  | ~/.gitconfig  |
-|        | gitignore.symlink  | ~/.gitignore  |
-| mackup | mackup.cfg.symlink | ~/.mackup.cfg |
-| vim    | vimrc.symlink      | ~/.vimrc      |
-| zsh    | zshrc.symlink      | ~/.zshrc      |
-
-### Topical
-
-每一個環境的配置是以資料夾的形式被獨立區分。例如，如果想要新增 "Java" 的配置到 dotfiles，你可以簡單的新增一個命名為 `java` 的資料夾，然後將檔案建至目錄底下。
-
-- 任何副檔名是 `.zsh` 的檔案將在 shell 執行時被自動載入至環境中。
-- 任何副檔名是 `.symlink` 的檔案將在你執行 `script/bootstrap` 安裝時被連結至 `$HOME` 目錄底下。.
-
-### Components
-
-一些目錄中比較特別的檔案:
-
-- **bin/**: 任何在 `bin/` 目錄底下的檔案可以在 shell 執行時直接使用。
-- **topic/*.zsh**: 任何 `.zsh` 結尾的檔案都會在 shell 執行時被載入至環境。
-- **topic/path.zsh**: 任何命名為 `path.zsh` 的檔案會在 shell 執行時優先被載入至 `$PATH`。
-- **topic/*.symlink**: 任何 `*.symlink` 結尾的檔案都會在 `$HOME` 目錄底下建立連結。這可以讓你在配置環境的時候也保持版本控制的優點。新增 symlink 的時候需要執行 `script/bootstrap` 安裝。
-
-不同於 [Holman's dotfiles](https://github.com/holman/dotfiles)，我修改了一些部分:
-
-- Shell 的部分改用 [Oh My Zsh](http://ohmyz.sh/) 取代原作者自己配置的 zsh。
-- 移除 **topic/aliases.zsh**、**topic/completion.zsh** 等檔案，改用 Oh My Zsh 的 [plugins]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 代替。
-- 移除 **zsh/prompt.zsh**、**zsh/window.zsh.zsh** 等檔案，改用 Oh My Zsh 的 [themes]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) 代替。
-- dotfiles 只專注在 **topic/*.symlink**、**topic/path.zsh** 的配置。
-
 ## OS X
 
 `bin/dot` 是一支簡單的腳本，會在 `script/bootstrap` 配置完 dotfiles 之後執行，安裝自定的 OS X 程式並設定系統參數配置。
@@ -354,4 +358,4 @@ ssh
 ## Thanks
 
 I forked [Zach Holman](http://github.com/holman)'s excellent [dotfiles](http://github.com/holman/dotfiles).
--->
+ -->
