@@ -1,9 +1,29 @@
 [hub]
   protocol = https
+[core]
+  excludesfile = /Users/lizhiwei/.gitignore_global
+  editor = vim  
+
+
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[credential]
+  helper = osxkeychain
+[commit]
+  template = /Users/lizhiwei/.stCommitMsg
+  gpgsign = true
 [user]
-  name = Amo Wu
-  email = amo260@gmail.com
-  signingkey = E77D0CB6
+  name = Victory
+  email = lzw9560@gmail.com
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+
+
 [credential]
   helper = osxkeychain
 [color]
@@ -12,9 +32,7 @@
   branch = auto
   log = auto
   ui = true
-[core]
-  excludesfile = ~/.gitignore
-  editor = vim
+
 [help]
   autocorrect = 1
 [push]
@@ -30,6 +48,7 @@
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   trustExitCode = false
+
 [merge]
   tool = sourcetree
 [mergetool]
@@ -37,9 +56,5 @@
 [mergetool "sourcetree"]
   cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
-[filter "lfs"]
-  clean = git-lfs clean %f
-  smudge = git-lfs smudge %f
-  required = true
-[commit]
-  gpgsign = true
+
+
