@@ -14,9 +14,9 @@
 
 - **Install Xcode**
 
-    1. 更新 App Store。
-    2. 安裝 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)。
-    3. 开启 Terminal，安裝 Xcode Command Line Tools:
+    * 更新 App Store。
+    * 安裝 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)。
+    * 开启 Terminal，安裝 Xcode Command Line Tools:
 
 	    ```bash
 	    $ xcode-select --install
@@ -92,7 +92,7 @@
 	- **topic/path.zsh**: 任何命名为 `path.zsh` 的档案会在 shell 执行时优先被载入至 `$PATH`。
 	- **topic/*.symlink**: 任何 `*.symlink` 结尾的档案都会在 `$HOME` 目录下面建立链接。这可以让你在配置环境的时候也可以保持版本配置的有点。*新增 symlink 的时候需要执行 `script/bootstrap` 安裝。*
 
-	<!--
+<!--
 	
 	> 不同於 [Holman's dotfiles](https://github.com/holman/dotfiles)，Awu Mo修改了一些部分:
 
@@ -100,43 +100,52 @@
 	- 移除 **topic/aliases.zsh**、**topic/completion.zsh** 等檔案，改用 Oh My Zsh 的 [plugins]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) 代替。
 	- 移除 **zsh/prompt.zsh**、**zsh/window.zsh.zsh** 等檔案，改用 Oh My Zsh 的 [themes]。(https://github.com/robbyrussell/oh-my-zsh/wiki/Themes) 代替。
 	- dotfiles 只專注在 **topic/*.symlink**、**topic/path.zsh** 的配置。
+
 -->
+- **macos**
+
+	`bin/dot` 是一个简单的脚本，会在 `script/bootstrap` 配置完 dotfiles 之后执行，安装自定义的 macos/OS X 程式并设定系统參數配置。
+	
+	執行 `$ dot` 之後，会执行以下脚本文件:
+	
+	1. `$HOME/.dotfiles/osx/set-defaults.sh` - macos/OS X defaults setting
+	2. `$HOME/.dotfiles/Brewfile` - Homebrew packages
+	3. 任何目录下文件名是 `install.sh` 的文件将被执行。
+
+- **Homebrew packages**
+	
+	* 执行 `$ dot` 的时候，脚本会根据 `Brewfile` 使用 [Homebrew](http://brew.sh/) 和 [Homebrew Cask](http://caskroom.io/) 来安装 **binary**、**font** 還有 **app**，可以依照个人需求更改这个档案，增加或者减少自己需要的 packages:
+	
+		```
+		# Brewfile
+		...
+		brew 'git'
+		brew 'tree'
+		brew 'python'
+		...
+		
+		```
+
+	* 应用程式可以用 `$ brew cask search some_sof_tname` 或者 [Cask Search](http://caskroom.io/search) 网站搜索软件是否存在。
+
+		```bash
+		# Brewfile
+		...
+		cask 'dropbox'
+		cask 'google-chrome'
+		...
+		```
+
+	* 字体都是以 **font-XXX** 的形式命名，可以用 `$ brew cask search /font-XXX/` 查找字体是否存在。
+
+		```
+		# Brewfile
+		...
+		cask 'font-roboto'
+		...
+		```
 
 <!--
-## OS X
-
-`bin/dot` 是一支簡單的腳本，會在 `script/bootstrap` 配置完 dotfiles 之後執行，安裝自定的 OS X 程式並設定系統參數配置。
-
-執行 `$ dot` 之後，它會跑以下兩支腳本檔:
-
-1. `$HOME/.dotfiles/osx/set-defaults.sh` - OS X defaults setting
-2. `$HOME/.dotfiles/Brewfile` - Homebrew packages
-3. 任何目錄下檔名是 `install.sh` 的檔案將被執行。
-
-### Homebrew packages
-
-執行 `$ dot` 的時候，腳本會根據 `Brewfile` 使用 [Homebrew](http://brew.sh/) 和 [Homebrew Cask](http://caskroom.io/) 來安裝 **binary**、**font** 還有 **app**，可以依照個人需求修改這個檔案，增加或減少自己需要的 packages:
-
-```
-brew 'git'
-brew 'tree'
-brew ...
-```
-
-應用程式可以用 `$ brew cask search XXX` 或是 [Cask Search](http://caskroom.io/search) 網站搜尋是否存在。
-
-```bash
-cask 'dropbox'
-cask 'google-chrome'
-cask ...
-```
-
-字型都是以 **font-XXX** 的形式命名，可以用 `$ brew cask search /font-XXX/` 搜尋是否存在。
-
-```
-cask 'font-roboto'
-cask ...
-```
 
 以下是我目前安裝的 packages：
 
