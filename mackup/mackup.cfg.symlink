@@ -27,7 +27,7 @@ engine = dropbox
 # You can customize the directory name in which Mackup stores your file. By
 # default, if not specified, Mackup creates a "Mackup" directory in the storage
 # engine you chose, e.g. "~/Dropbox/Mackup".
-directory = Mackup
+# directory = Mackup
 
 # List of applications you want to explicitly sync
 # One application name per line
@@ -39,14 +39,14 @@ directory = Mackup
 #
 # For example, to sync Irssi, Ventrilo and XEmacs, add:
 [applications_to_sync]
-aws
-flux
-iterm2
-moom
-oh-my-zsh
-sourcetree
-sublime-text-3
-ssh
+# aws
+# flux
+# iterm2
+# moom
+# oh-my-zsh
+# sourcetree
+# sublime-text-3
+# ssh
 
 # List of applications you want to ignore
 # One application name per line
@@ -58,5 +58,5 @@ ssh
 #
 # For example, to not sync SSH and Adium, add:
 [applications_to_ignore]
-# ssh
-# adium
+ssh
+adium
