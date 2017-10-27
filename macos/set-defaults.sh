@@ -8,13 +8,17 @@
 #   https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 #   https://mths.be/osx
 #
-# Run ./set-defaults.sh and you'll be good to go.
+
+# Close any open System Preferences panes, to prevent them from overriding
+# 关闭所有打开的系统偏好设置窗格，以防止它们被覆盖
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
 
 # Ask for the administrator password upfront
-# sudo -v
+sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until `.osx` has finished
-# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+# Keep-alive: update existing `sudo` time stamp until `.macos` has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
 # General UI/UX                                                               #
@@ -31,10 +35,11 @@
 # sudo pmset -a autopoweroffdelay 86400
 
 # Disable battery and power sleep mode
-sudo pmset -a standby 0
-sudo pmset -a autopoweroff 0
+# sudo pmset -a standby 0
+# sudo pmset -a autopoweroff 0
 
 # Disable the sound effects on boot
+# 禁用启动时的声音效果
 # sudo nvram SystemAudioVolume=" "
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
@@ -57,6 +62,7 @@ sudo pmset -a autopoweroff 0
 # defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Set sidebar icon size to medium
+# 将侧边栏图标大小设为中等
 # defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 
 # Always show scrollbars
@@ -68,9 +74,11 @@ sudo pmset -a autopoweroff 0
 # defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
 
 # Increase window resize speed for Cocoa applications
+# 为Cocoa应用程序增加窗口大小的速度
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 # Expand save panel by default
+# 默认展开保存面板
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
@@ -85,6 +93,7 @@ defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 # defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 # Disable the “Are you sure you want to open this application?” dialog
+# 禁用“您确定要打开此应用程序吗？”对话框
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Remove duplicates in the “Open With” menu (also see `lscleanup` alias)
@@ -101,7 +110,8 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 # Disable the crash reporter
-# defaults write com.apple.CrashReporter DialogType -string "none"
+# 禁用崩溃记者
+defaults write com.apple.CrashReporter DialogType -string "none"
 
 # Set Help Viewer windows to non-floating mode
 # defaults write com.apple.helpviewer DevMode -bool true
@@ -113,10 +123,11 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
-# sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+# 登录窗口中，在点击时钟时显示IP地址，主机名，操作系统版本等
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 # Restart automatically if the computer freezes
-# sudo systemsetup -setrestartfreeze on
+sudo systemsetup -setrestartfreeze on
 
 # Never go into computer sleep mode
 # sudo systemsetup -setcomputersleep Off > /dev/null
@@ -144,6 +155,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 ###############################################################################
 
 # Disable local Time Machine snapshots
+# 禁用休眠（加快进入睡眠模式）
 sudo tmutil disablelocal
 
 # Disable hibernation (speeds up entering sleep mode)
@@ -169,30 +181,36 @@ defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Trackpad: map bottom right corner to right-click
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-# defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-# defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+# 右下角映射到鼠标右键点击
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
 # Trackpad/Mouse: enable right click
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode "TwoButton"
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+# defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode "TwoButton"
 
 # Mouse: enable swipe between pages
 # defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseHorizontalSwipe -int 1
 
 # Trackpad: enable three finger drag
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerDragGesture -bool true
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+# defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerDragGesture -bool true
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+
+	
+# Increase sound quality for Bluetooth headphones/headsets
+# 提高蓝牙耳机/耳机的音质
+defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Trackpad/Mouse: tracking speed fast
-defaults write NSGlobalDomain com.apple.trackpad.scaling -int 3
-defaults write NSGlobalDomain com.apple.mouse.scaling -int 3
+# defaults write NSGlobalDomain com.apple.trackpad.scaling -int 3
+# defaults write NSGlobalDomain com.apple.mouse.scaling -int 3
 
 # Trackpad: enable swipe down tree/four finger to app expose
-defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerVertSwipeGesture -int 0
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
-defaults write com.apple.dock showAppExposeGestureEnabled -int 1
+# defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerVertSwipeGesture -int 0
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 0
+# defaults write com.apple.dock showAppExposeGestureEnabled -int 1
 
 # Disable “natural” (Lion-style) scrolling
 # defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
@@ -201,6 +219,7 @@ defaults write com.apple.dock showAppExposeGestureEnabled -int 1
 # defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Enable full keyboard access
+# 启用所有控件的全键盘访问
 # 0 disable
 # 1 text boxes and lists only
 # 3 all controls (e.g. enable Tab in modal dialogs)
@@ -213,10 +232,10 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Disable press-and-hold for keys in favor of key repeat
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
+# defaults write NSGlobalDomain KeyRepeat -int 0
 
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
@@ -263,7 +282,7 @@ defaults write com.apple.screencapture disable-shadow -bool true
 ###############################################################################
 
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
-# defaults write com.apple.finder QuitMenuItem -bool true
+defaults write com.apple.finder QuitMenuItem -bool true
 
 # Finder: disable window animations and Get Info animations
 # defaults write com.apple.finder DisableAllAnimations -bool true
@@ -380,6 +399,7 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 ###############################################################################
 
 # Use dark menu bar and Dock
+# 启用堆叠网格视图的高亮悬停效果（Dock）
 defaults write NSGlobalDomain AppleInterfaceStyle Dark
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
