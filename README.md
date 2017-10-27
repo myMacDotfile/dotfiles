@@ -1,67 +1,67 @@
-# Lzw does dotfiles
+# Victory does dotfiles
 
-這份 dotfiles 是 fork 自 [Holman's dotfiles](https://github.com/holman/dotfiles)，並根據個人的需求修改。
+这个 dotfiles 是 fork 自 [Amo Wu's dotfiles](hhttps://github.com/amowu/dotfiles.git)（Amo Wu 是 fork 自 [Holman's dotfiles](https://github.com/holman/dotfiles)），并根据个人的需求修改。
 
-閱讀完這份文件之後，如果有興趣，歡迎 fork 一份回去配置成適合自己的 dotfiles。
+阅读完这个文件之后，如果有什么问题，欢迎向我提出；
+如果你也有兴趣，欢迎 fork 回去配置自己的 dotfile。 
 
-更多的 dotfiles 請參考 [GitHub does dotfiles](https://dotfiles.github.io/)。
+更多的 dotfiles 请参考 [GitHub does dotfiles](https://dotfiles.github.io/)。
 
-# Quick Start
+## Quick Start
 
-## Erase and reinstall OS X
+- **Erase and reinstall OS X**
+    如果你打算从干净的 Mac环境开始，请参考 [OS X：如何清除并安装](http://support.apple.com/zh-tw/HT5943)」。
 
-如果你打算從乾淨的 Mac 環境開始，請參閱「[OS X：如何清除並安裝](http://support.apple.com/zh-tw/HT5943)」。
+- **Install Xcode**
 
-## Install Xcode
+    1. 更新 App Store。
+    2. 安裝 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)。
+    3. 开启 Terminal，安裝 Xcode Command Line Tools:
 
-1. 更新 App Store。
-2. 安裝 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)。
-3. 開啟 Terminal，安裝 Xcode Command Line Tools:
+	    ```bash
+	    $ xcode-select --install
+	    ```
 
-```bash
-$ xcode-select --install
-```
+- **Install dotfiles**
 
-## Install dotfiles
+    * [下载](https://github.com/myMacDotfile/dotfiles/archive/master.zip) 或 使用 git clone 一份到 `$HOME` 目录下的 `.dotfiles` 文件夹里面:
 
-[下載](https://github.com/amowu/dotfiles/archive/master.zip)或使用 git clone 一份到 `$HOME` 目錄底下的 `.dotfiles` 資料夾裡面:
+        ```bash
+        $ git clone https://github.com/myMacDotfile/dotfiles.git
+        ```
 
-```bash
-$ git clone https://github.com/amowu/dotfiles.git ~/.dotfiles
-```
+    * 进入 `.dotfiles` 文件夹:
 
-進入 `.dotfiles` 資料夾:
+        ```bash
+        $ cd ~/.dotfiles
+        ```
 
-```bash
-$ cd ~/.dotfiles
-```
+    * 安装 dotfiles:
 
-安裝 dotfiles:
+        ```bash
+        $ ./script/bootstrap
+        ```
+        > **`bootstrap.sh` 这个脚本会自动完成以下工作:**
+        
+        > 1. 检查并安装 [Homebrew](http://brew.sh/)。
+        > 2. 检查并安装 [Oh My Zsh](http://ohmyz.sh/)。
+        > 3. 检查并安装 dotfiles (.zshrc, .vimrc, .gitconfig, .gitignore, ...)。
+        > 4. 设置好 Mac OS X 的 defaults settings。
+        > 5. 更新并安装 Homebrew packages (binaries, fonts, apps)。
 
-```bash
-$ ./script/bootstrap
-```
-
-`bootstrap.sh` 這個程式會自動完成以下工作:
-
-1. 檢查並安裝 [Homebrew](http://brew.sh/)。
-2. 檢查並安裝 [Oh My Zsh](http://ohmyz.sh/)。
-3. 檢查並連結 dotfiles (.zshrc, .vimrc, .gitconfig, .gitignore, ...)。
-4. 設置 Mac OS X 的 defaults settings。
-5. 更新並安裝 Homebrew packages (binaries, fonts, apps)。
-
-完成之後，手動安裝一些 App Store 上才有的軟體 (Dash, Moom, ...)。
+        > 最后，完成之后，手动安装一下 App Store 上才有的软件 (Dash, Moom, ...)。
 
 ## Restore backup
 
-使用 [Mackup](https://github.com/lra/mackup) 進行備份回復:
+使用 [Mackup](https://github.com/lra/mackup) 进行备份恢复:
 
-```bash
-$ mackup restore
-```
+    ```bash
+    $ mackup restore
+    ```
 
-什麼是 Mackup? 底下介紹。
+什么是Mackup？ TODO
 
+<!--
 # How To Use
 
 ## dotfiles
@@ -354,3 +354,4 @@ ssh
 ## Thanks
 
 I forked [Zach Holman](http://github.com/holman)'s excellent [dotfiles](http://github.com/holman/dotfiles).
+-->
