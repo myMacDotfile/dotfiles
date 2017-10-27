@@ -7,7 +7,7 @@
 export ZSH=$HOME/.dotfiles
 
 # Set macOS defaults
-$ZSH/osx/set-defaults.sh
+$ZSH/macos/set-defaults.sh
 
 # Upgrade homebrew
 echo "› brew update"
