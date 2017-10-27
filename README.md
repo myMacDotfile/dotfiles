@@ -1,10 +1,4 @@
-# Amo Wu does dotfiles
-
-如果不清楚什麼是 dotfiles 的話，可以參閱「[善用 dotfiles 個人化自己的工作環境](http://cloudchen.logdown.com/posts/49264746647/dotfiles)」：
-
-> dotfiles，顧名思義，就是檔案名稱以 . (dot) 為 prefix 的檔案通稱，若是您的作業系統是 Mac OS X 或是 Linux 這類 *nix-based 的作業系統，一般來說在視窗環境中是看不到這些檔案的，因為對系統來說，他們是所謂的隱藏檔，這些檔案有一些共通點，那就是他們通常用來儲存一些個人化的設定或是自定的拓展功能，以符合使用者本身的使用需求與習慣，有了這些設定好的檔案之後，使用者可以讓整個系統用起來更為順手，並且大幅提昇他們自身的工作效率！因此對某些使用者來說，這些 dotfiles 設定檔對他們來說，反而可能是他們機器上最重要的檔案呢！
-
-![iMac-MacBook-flat](http://i.imgur.com/GBpjrHB.png)
+# Lzw does dotfiles
 
 這份 dotfiles 是 fork 自 [Holman's dotfiles](https://github.com/holman/dotfiles)，並根據個人的需求修改。
 
