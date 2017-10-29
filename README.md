@@ -123,7 +123,6 @@
 		brew 'tree'
 		brew 'python'
 		...
-		
 		```
 
 	* 应用程式可以用 `$ brew cask search some_sof_tname` 或者 [Cask Search](http://caskroom.io/search) 网站搜索软件是否存在。
