@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "cryptography >=1.3.4",
+    "python 3.6*",
+    "six >=1.5.2"
+  ],
+  "files": [
+    "lib/python3.6/site-packages/OpenSSL/SSL.py",
+    "lib/python3.6/site-packages/OpenSSL/__init__.py",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/SSL.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/crypto.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/rand.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/tsafe.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/OpenSSL/_util.py",
+    "lib/python3.6/site-packages/OpenSSL/crypto.py",
+    "lib/python3.6/site-packages/OpenSSL/rand.py",
+    "lib/python3.6/site-packages/OpenSSL/tsafe.py",
+    "lib/python3.6/site-packages/OpenSSL/version.py",
+    "lib/python3.6/site-packages/pyOpenSSL-16.2.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pyOpenSSL-16.2.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pyOpenSSL-16.2.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pyOpenSSL-16.2.0-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/pyOpenSSL-16.2.0-py3.6.egg-info/top_level.txt"
+  ],
+  "installed_by": "Miniconda3-4.3.11-MacOSX-x86_64",
+  "license": "Apache Software License",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/lizhiwei/.pyenv/versions/miniconda3-4.3.11/pkgs/pyopenssl-16.2.0-py36_0",
+    "type": "hard-link"
+  },
+  "md5": "fd123b463a893715308d585359c2035a",
+  "name": "pyopenssl",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/pyopenssl-16.2.0-py36_0.tar.bz2",
+  "version": "16.2.0"
+}

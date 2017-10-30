@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/lizhiwei/.pyenv/versions/miniconda3-4.3.11
+exec_prefix=/Users/lizhiwei/.pyenv/versions/miniconda3-4.3.11
+libdir=/Users/lizhiwei/.pyenv/versions/miniconda3-4.3.11/lib
+includedir=/Users/lizhiwei/.pyenv/versions/miniconda3-4.3.11/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: http://tukaani.org/xz/
+Version: 5.2.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -D_THREAD_SAFE -pthread 

@@ -1,0 +1,93 @@
+{% set name = "conda" %}
+{% set version = "4.3.27" %}
+{% set sha256 = "7de3c3fdb9cc0418bed860dd29d03cde211abafdbc236ddeb223b0c253c1dd72" %}
+
+package:
+  name: conda
+  version: {{ version }}
+
+source:
+  fn: conda-{{ version }}.tar.gz
+  url: https://github.com/conda/conda/archive/{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  # These are present when the new environment is created
+  # so we have to exempt them from the list of initial files
+  # for conda-build to realize they should be included.
+  entry_points:
+    - conda = conda.cli:main
+    - conda-env = conda_env.cli.main:main
+  always_include_files:
+    - bin/conda                            # [unix]
+    - bin/activate                         # [unix]
+    - bin/deactivate                       # [unix]
+    - Scripts/activate.bat                 # [win]
+    - Scripts/activate                     # [win]
+    - Scripts/deactivate.bat               # [win]
+    - Scripts/deactivate                   # [win]
+
+requirements:
+  host:
+    - python
+    - pycosat
+    - pyopenssl
+    - requests
+    - ruamel_yaml
+  run:
+    - python
+    - conda-env >=2.6
+    - enum34                 # [py<34]
+    - menuinst               # [win]
+    - pycosat >=0.6.1
+    - pyopenssl >=16.2.0
+    - requests >=2.12.4
+    - ruamel_yaml >=0.11.14
+
+test:
+  imports:
+    - conda
+
+  commands:
+    # Check version via import.
+    - python -c "from __future__ import print_function; import conda; print(conda.__version__)"
+
+    # Show where the conda commands are.
+    - which conda                  # [unix]
+    - where conda                  # [win]
+    - which conda-env              # [unix]
+    - where conda-env              # [win]
+
+    # Run some simple conda commands.
+    - conda --version
+    - conda info
+    - conda env --help
+
+about:
+  home: http://conda.pydata.org/
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: OS-agnostic, system-level binary package and environment manager.
+  description: |
+    Conda is an open source package management system and environment
+    management system for installing multiple versions of software packages
+    and their dependencies and switching easily between them. It works on
+    Linux, OS X and Windows, and was created for Python programs but can
+    package and distribute any software.
+  doc_url: http://conda.pydata.org/docs/
+  dev_url: https://github.com/conda/conda
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - kalefranz
+    - mcg1969
+    - mingwandroid
+    - msarahan
+    - mwcraig
+    - ocefpaf
+    - patricksnape
+    - pelson
+    - scopatz

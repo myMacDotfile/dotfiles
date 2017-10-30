@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1",
+  "build_number": 1,
+  "depends": [
+    "python 3.6*"
+  ],
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/test_pycosat.cpython-36.pyc",
+    "lib/python3.6/site-packages/pycosat-0.6.1-py3.6.egg-info",
+    "lib/python3.6/site-packages/pycosat.cpython-36m-darwin.so",
+    "lib/python3.6/site-packages/test_pycosat.py"
+  ],
+  "installed_by": "Miniconda3-4.3.11-MacOSX-x86_64",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/lizhiwei/.pyenv/versions/miniconda3-4.3.11/pkgs/pycosat-0.6.1-py36_1",
+    "type": "hard-link"
+  },
+  "md5": "95f56c0ec3c75cf54a77ac127e796b18",
+  "name": "pycosat",
+  "platform": "osx",
+  "subdir": "osx-64",
+  "url": "https://repo.continuum.io/pkgs/free/osx-64/pycosat-0.6.1-py36_1.tar.bz2",
+  "version": "0.6.1"
+}
